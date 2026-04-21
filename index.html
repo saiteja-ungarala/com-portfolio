@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>COM - Count On Me | Immersive Experience</title>
+  <!-- Google Fonts for Modern Typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <!-- Custom Cursor -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="/" class="logo">
+        <span class="logo-text">COM</span>
+      </a>
+      <div class="menu-btn">
+        <span class="menu-text">MENU</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Fullscreen Menu Overlay -->
+  <div class="fullscreen-menu">
+    <div class="menu-bg"></div>
+    <div class="menu-inner">
+      <div class="menu-nav">
+        <ul class="menu-links">
+          <li><a href="/" class="menu-link"><span class="link-align">00</span> Home</a></li>
+          <li><a href="/about.html" class="menu-link"><span class="link-align">01</span> Philosophy</a></li>
+          <li><a href="/capabilities.html" class="menu-link"><span class="link-align">02</span> Capabilities</a></li>
+          <li><a href="/work.html" class="menu-link"><span class="link-align">03</span> Work</a></li>
+          <li><a href="/contact.html" class="menu-link"><span class="link-align">04</span> Contact</a></li>
+        </ul>
+      </div>
+      <div class="menu-info">
+        <p class="menu-sub">Reach Out</p>
+        <a href="mailto:hello@countonme.com" class="menu-email">hello@countonme.com</a>
+        <div class="menu-socials">
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">X (Twitter)</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Lenis smooth wrapper -->
+  <main class="smooth-scroll-wrapper" id="smooth-wrapper">
+    <div id="smooth-content">
+
+      <!-- Hero Parallax Scale Section -->
+      <section class="hero-pin" id="hero">
+        <div class="hero-bg-wrapper">
+          <div class="hero-bg parallax-bg"></div>
+          <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-text-container">
+          <h1 class="hero-title mask-line">
+            <span class="line-inner">We Are</span>
+          </h1>
+          <h1 class="hero-title mask-line">
+            <div class="line-inner highlight">Count On Me</div>
+          </h1>
+          <p class="hero-subtitle mask-line fade-up">
+            <span class="line-inner">Elevating brands across every domain.</span>
+          </p>
+        </div>
+        <div class="scroll-down">
+          <span>Scroll to travel</span>
+          <div class="line"></div>
+        </div>
+      </section>
+
+      <!-- Philosophy Pinned Section -->
+      <section class="philosophy-section" id="philosophy">
+        <div class="philosophy-content">
+          <h2 class="sub-heading">01 &mdash; Philosophy</h2>
+          <div class="philosophy-manifesto text-reveal">
+            We believe true brand elevation requires a multidimensional approach.
+            We are not just digital. We are experiential, strategic, and global.
+          </div>
+        </div>
+      </section>
+
+      <!-- Capabilities Horizontal Scroll -->
+      <section class="horizontal-scroll" id="capabilities">
+        <h2 class="sub-heading absolute-heading">02 &mdash; Capabilities</h2>
+        <div class="horizontal-container">
+          <div class="horizontal-panel intro-panel">
+            <h2 class="huge-text">Dominating<br>Every<br>Channel.</h2>
+          </div>
+
+          <div class="horizontal-panel card-panel">
+            <div class="caps-card">
+              <div class="caps-img">
+                <!-- Fallback to hero bg if specific images fail -->
+                <div class="img-inner"
+                  style="background-image: url('/images/digital_marketing_vis.png'), url('/images/hero_bg_premium.png');">
+                </div>
+              </div>
+              <h3>Digital Ecosystems</h3>
+              <p>Data-driven campaigns and immersive web experiences.</p>
+            </div>
+          </div>
+
+          <div class="horizontal-panel card-panel">
+            <div class="caps-card">
+              <div class="caps-img">
+                <div class="img-inner"
+                  style="background-image: url('/images/brand_strategy_vis.png'), url('/images/hero_bg_premium.png');">
+                </div>
+              </div>
+              <h3>Brand Strategy</h3>
+              <p>Forging indelible brand identities and absolute pure strategy.</p>
+            </div>
+          </div>
+
+          <div class="horizontal-panel card-panel">
+            <div class="caps-card">
+              <div class="caps-img">
+                <div class="img-inner" style="background-image: url('/images/hero_bg_premium.png');"></div>
+              </div>
+              <h3>Experiential</h3>
+              <p>Unforgettable physical activations and global events.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Image Reveal -->
+      <section class="portfolio-reveal" id="portfolio">
+        <div class="portfolio-inner">
+          <h2 class="sub-heading">03 &mdash; Featured Work</h2>
+
+          <div class="project-wrapper">
+            <div class="project-info" data-speed="1.2">
+              <h3>Aura Luxury</h3>
+              <p>Redefining Modern Elegance</p>
+            </div>
+            <div class="project-image scale-reveal">
+              <div class="reveal-mask">
+                <img src="/images/hero_bg_premium.png" alt="Aura Luxury" class="prx-img" />
+              </div>
+            </div>
+          </div>
+
+          <div class="project-wrapper reverse">
+            <div class="project-info" data-speed="1.1">
+              <h3>Nexus Tech</h3>
+              <p>Global Summit Launch</p>
+            </div>
+            <div class="project-image scale-reveal">
+              <div class="reveal-mask">
+                <img src="/images/brand_strategy_vis.png" alt="Nexus Tech" class="prx-img"
+                  onerror="this.src='/images/hero_bg_premium.png'" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer-pin text-center" id="contact">
+        <div class="footer-content" data-speed="0.8">
+          <h1 class="huge-text highlight">Count On Us.</h1>
+          <a href="mailto:hello@countonme.com" class="big-link">hello@countonme.com</a>
+          <div class="footer-bottom">
+            <span>&copy; 2026 Count On Me. All rights reserved.</span>
+            <span>Based globally.</span>
+          </div>
+        </div>
+      </footer>
+
+    </div> <!-- /smooth-content -->
+  </main>
+
+  <script type="module" src="/main.js"></script>
+  <script type="module" src="/home.js"></script>
+</body>
+
+</html>

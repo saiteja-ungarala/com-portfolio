@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COM - Contact | Immersive Experience</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="logo">
+                <span class="logo-text">COM</span>
+            </a>
+            <div class="menu-btn">
+                <span class="menu-text">MENU</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Fullscreen Menu Overlay -->
+    <div class="fullscreen-menu">
+        <div class="menu-bg"></div>
+        <div class="menu-inner">
+            <div class="menu-nav">
+                <ul class="menu-links">
+                    <li><a href="/" class="menu-link"><span class="link-align">00</span> Home</a></li>
+                    <li><a href="/about.html" class="menu-link"><span class="link-align">01</span> Philosophy</a></li>
+                    <li><a href="/capabilities.html" class="menu-link"><span class="link-align">02</span>
+                            Capabilities</a></li>
+                    <li><a href="/work.html" class="menu-link"><span class="link-align">03</span> Work</a></li>
+                    <li><a href="/contact.html" class="menu-link"><span class="link-align">04</span> Contact</a></li>
+                </ul>
+            </div>
+            <div class="menu-info">
+                <p class="menu-sub">Reach Out</p>
+                <a href="mailto:hello@countonme.com" class="menu-email">hello@countonme.com</a>
+                <div class="menu-socials">
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">X (Twitter)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lenis smooth wrapper -->
+    <main class="smooth-scroll-wrapper" id="smooth-wrapper">
+        <div id="smooth-content">
+
+            <!-- Contact Page -->
+            <section class="contact-page">
+                <div class="contact-container">
+
+                    <div class="contact-left">
+                        <h1 class="huge-text highlight split-lines">Start.</h1>
+                        <h1 class="huge-text split-lines">Something.</h1>
+
+                        <div class="contact-details delay-show">
+                            <div class="detail-block">
+                                <p class="detail-label">Email Us</p>
+                                <a href="mailto:hello@countonme.com" class="detail-link">hello@countonme.com</a>
+                            </div>
+                            <div class="detail-block">
+                                <p class="detail-label">Call Us</p>
+                                <a href="tel:+1234567890" class="detail-link">+1 (234) 567-890</a>
+                            </div>
+                            <div class="detail-block">
+                                <p class="detail-label">Follow Us</p>
+                                <div class="social-links-inline">
+                                    <a href="#">IG</a>
+                                    <a href="#">LI</a>
+                                    <a href="#">X</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-right delay-show">
+                        <form class="premium-form">
+                            <div class="form-group">
+                                <input type="text" id="name" required class="form-input">
+                                <label for="name" class="form-label">Your Name</label>
+                                <div class="form-line"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" required class="form-input">
+                                <label for="email" class="form-label">Your Email</label>
+                                <div class="form-line"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="company" required class="form-input">
+                                <label for="company" class="form-label">Company (Optional)</label>
+                                <div class="form-line"></div>
+                            </div>
+                            <div class="form-group mt-large text-area-group">
+                                <textarea id="message" required class="form-input textarea-input"></textarea>
+                                <label for="message" class="form-label">Tell us about your project</label>
+                                <div class="form-line"></div>
+                            </div>
+                            <button type="submit" class="submit-btn mt-4">Send Message</button>
+                        </form>
+                    </div>
+
+                </div>
+            </section>
+
+        </div> <!-- /smooth-content -->
+    </main>
+
+    <script type="module" src="/main.js"></script>
+    <script type="module" src="/contact.js"></script>
+</body>
+
+</html>

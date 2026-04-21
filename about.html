@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COM - Philosophy | Immersive Experience</title>
+    <!-- Google Fonts for Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="logo">
+                <span class="logo-text">COM</span>
+            </a>
+            <div class="menu-btn">
+                <span class="menu-text">MENU</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Fullscreen Menu Overlay -->
+    <div class="fullscreen-menu">
+        <div class="menu-bg"></div>
+        <div class="menu-inner">
+            <div class="menu-nav">
+                <ul class="menu-links">
+                    <li><a href="/" class="menu-link"><span class="link-align">00</span> Home</a></li>
+                    <li><a href="/about.html" class="menu-link"><span class="link-align">01</span> Philosophy</a></li>
+                    <li><a href="/capabilities.html" class="menu-link"><span class="link-align">02</span>
+                            Capabilities</a></li>
+                    <li><a href="/work.html" class="menu-link"><span class="link-align">03</span> Work</a></li>
+                    <li><a href="/contact.html" class="menu-link"><span class="link-align">04</span> Contact</a></li>
+                </ul>
+            </div>
+            <div class="menu-info">
+                <p class="menu-sub">Reach Out</p>
+                <a href="mailto:hello@countonme.com" class="menu-email">hello@countonme.com</a>
+                <div class="menu-socials">
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">X (Twitter)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lenis smooth wrapper -->
+    <main class="smooth-scroll-wrapper" id="smooth-wrapper">
+        <div id="smooth-content">
+
+            <!-- About Header -->
+            <section class="page-header" id="about-header">
+                <div class="about-bg prx-bg"></div>
+                <div class="container text-center split-text-container">
+                    <h1 class="huge-text highlight split-lines">Absolute.</h1>
+                    <h1 class="huge-text split-lines">Conviction.</h1>
+                    <p class="lead mt-4 split-lines delay-show">Our philosophy is built on relentless multidimensional
+                        execution.</p>
+                </div>
+            </section>
+
+            <!-- Manifesto Scroll Section -->
+            <section class="manifesto-scroll text-center" id="manifesto">
+                <div class="manifesto-inner">
+                    <h2 class="manifesto-text">
+                        We do not follow trends.<br>
+                        We engineer them.<br>
+                        By aligning pure strategy<br>
+                        with flawless execution,<br>
+                        we ensure our partners<br>
+                        dominate their respective domains.
+                    </h2>
+                </div>
+            </section>
+
+            <!-- Core Team Grid -->
+            <section class="team-section section bg-darker" id="team">
+                <div class="container">
+                    <h2 class="sub-heading mb-5">Leadership</h2>
+                    <div class="team-grid">
+
+                        <div class="team-card team-fade">
+                            <div class="team-img-wrap mask-down">
+                                <div class="team-img prx-up"
+                                    style="background-image: url('/images/brand_strategy_vis.png');"></div>
+                            </div>
+                            <div class="team-info pt-3">
+                                <h3 class="font-heading">Eleanor Vance</h3>
+                                <p class="text-gold">Chief Visionary Officer</p>
+                            </div>
+                        </div>
+
+                        <div class="team-card team-fade offset-mt">
+                            <div class="team-img-wrap mask-down">
+                                <!-- Fallback to hero_bg -->
+                                <div class="team-img prx-up"
+                                    style="background-image: url('/images/hero_bg_premium.png'); background-position: center right;">
+                                </div>
+                            </div>
+                            <div class="team-info pt-3">
+                                <h3 class="font-heading">Marcus Sterling</h3>
+                                <p class="text-gold">Head of Experiential</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer-pin text-center" id="contact">
+                <div class="footer-content" data-speed="0.8">
+                    <h1 class="huge-text highlight">Count On Us.</h1>
+                    <a href="mailto:hello@countonme.com" class="big-link">hello@countonme.com</a>
+                    <div class="footer-bottom">
+                        <span>&copy; 2026 Count On Me. All rights reserved.</span>
+                        <span>Based globally.</span>
+                    </div>
+                </div>
+            </footer>
+
+        </div> <!-- /smooth-content -->
+    </main>
+
+    <script type="module" src="/main.js"></script>
+    <script type="module" src="/about.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COM - Capabilities | Immersive Experience</title>
+    <!-- Google Fonts for Modern Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="/" class="logo">
+                <span class="logo-text">COM</span>
+            </a>
+            <div class="menu-btn">
+                <span class="menu-text">MENU</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Fullscreen Menu Overlay -->
+    <div class="fullscreen-menu">
+        <div class="menu-bg"></div>
+        <div class="menu-inner">
+            <div class="menu-nav">
+                <ul class="menu-links">
+                    <li><a href="/" class="menu-link"><span class="link-align">00</span> Home</a></li>
+                    <li><a href="/about.html" class="menu-link"><span class="link-align">01</span> Philosophy</a></li>
+                    <li><a href="/capabilities.html" class="menu-link"><span class="link-align">02</span>
+                            Capabilities</a></li>
+                    <li><a href="/work.html" class="menu-link"><span class="link-align">03</span> Work</a></li>
+                    <li><a href="/contact.html" class="menu-link"><span class="link-align">04</span> Contact</a></li>
+                </ul>
+            </div>
+            <div class="menu-info">
+                <p class="menu-sub">Reach Out</p>
+                <a href="mailto:hello@countonme.com" class="menu-email">hello@countonme.com</a>
+                <div class="menu-socials">
+                    <a href="#">Instagram</a>
+                    <a href="#">LinkedIn</a>
+                    <a href="#">X (Twitter)</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Lenis smooth wrapper -->
+    <main class="smooth-scroll-wrapper" id="smooth-wrapper">
+        <div id="smooth-content">
+
+            <!-- Capabilities Header -->
+            <section class="page-header" id="cap-header">
+                <div class="container text-center split-text-container">
+                    <h1 class="huge-text highlight split-lines">Omnichannel.</h1>
+                    <h1 class="huge-text split-lines">Dominance.</h1>
+                </div>
+            </section>
+
+            <!-- Sticky Services List -->
+            <section class="services-list" id="services">
+
+                <div class="service-row">
+                    <div class="service-left">
+                        <div class="service-sticky">
+                            <span class="service-num">01 /</span>
+                            <h2 class="service-title font-heading italic">Digital Ecosystems</h2>
+                            <p class="service-desc">We build immersive, high-conversion digital experiences that
+                                redefine industry standards. From bespoke web applications to predictive data modeling.
+                            </p>
+                            <div class="service-tags">
+                                <span>Web Dev</span> <span>SEO/SEM</span> <span>UI/UX</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-right">
+                        <div class="service-img-container clip-trigger">
+                            <!-- Fallback to generated abstract images -->
+                            <div class="service-img prx-img"
+                                style="background-image: url('/images/digital_marketing_vis.png'); background-color: #111;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-row reverse-row">
+                    <div class="service-left">
+                        <div class="service-sticky">
+                            <span class="service-num">02 /</span>
+                            <h2 class="service-title font-heading italic">Brand Strategy</h2>
+                            <p class="service-desc">Forging indelible identities. We distill your core essence into a
+                                powerful visual and verbal identity that commands immediate respect.</p>
+                            <div class="service-tags">
+                                <span>Positioning</span> <span>Identity</span> <span>Voice</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-right">
+                        <div class="service-img-container clip-trigger">
+                            <div class="service-img prx-img"
+                                style="background-image: url('/images/brand_strategy_vis.png'); background-color: #111;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="service-row">
+                    <div class="service-left">
+                        <div class="service-sticky">
+                            <span class="service-num">03 /</span>
+                            <h2 class="service-title font-heading italic">Experiential & PR</h2>
+                            <p class="service-desc">Unforgettable physical activations and global media relations that
+                                put your brand at the center of the cultural conversation.</p>
+                            <div class="service-tags">
+                                <span>Pop-ups</span> <span>Media Relations</span> <span>Events</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-right">
+                        <div class="service-img-container clip-trigger">
+                            <!-- Fallback intentionally using hero bg -->
+                            <div class="service-img prx-img"
+                                style="background-image: url('/images/hero_bg_premium.png'); background-color: #111;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer-pin text-center" id="contact">
+                <div class="footer-content" data-speed="0.8">
+                    <h1 class="huge-text highlight">Count On Us.</h1>
+                    <a href="mailto:hello@countonme.com" class="big-link">hello@countonme.com</a>
+                    <div class="footer-bottom">
+                        <span>&copy; 2026 Count On Me. All rights reserved.</span>
+                        <span>Based globally.</span>
+                    </div>
+                </div>
+            </footer>
+
+        </div> <!-- /smooth-content -->
+    </main>
+
+    <script type="module" src="/main.js"></script>
+    <script type="module" src="/capabilities.js"></script>
+</body>
+
+</html>
